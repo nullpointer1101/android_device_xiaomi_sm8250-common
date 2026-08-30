@@ -316,6 +316,7 @@ PRODUCT_PACKAGES += \
     SettingsOverlayCommon \
     SettingsProviderOverlayCommon \
     SystemUIOverlayCommon \
+    SystemUIOverlayDevice \
     WifiResourcesOverlayCommon
 
 ifneq ($(TARGET_IS_TABLET),true)

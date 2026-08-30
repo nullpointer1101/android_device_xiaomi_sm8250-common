@@ -296,7 +296,7 @@
          at performing a blur.  Used by parts of the UI to turn off
          the blur effect where it isn't worth the performance hit.
          As of Honeycomb, blurring is not supported anymore. -->
-    <bool name="config_sf_slowBlur">false</bool>
+    <bool name="config_sf_slowBlur">true</bool>
 
     <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
     <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/power_supply/bms/fastcharge_mode</string>
